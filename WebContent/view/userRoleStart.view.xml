@@ -1,0 +1,78 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+           controllerName="usrole.controller.userRoleStart" xmlns:l="sap.ui.layout">
+    <SplitApp id="splitApp" initialDetail="messagePage" initialMaster="masterPage">
+        <masterPages>
+            <Page id="masterPage" showHeader="false">
+                <subHeader>
+                    <Toolbar>
+                        <SearchField></SearchField>
+                    </Toolbar>
+                </subHeader>
+                <content>
+                    <List mode="SingleSelectMaster" select="fnUsRoleSelect"
+                          items="{path: 'userModel>/userRoleList', factory: '.fnUserRoleList'}">
+                    </List>
+                </content>
+            </Page>
+        </masterPages>
+        <detailPages>
+            <MessagePage id="messagePage" title="User Role" text="No Entry Selected"
+                         description="Please select an user role from the list..."
+                         icon="sap-icon://quality-issue">
+            </MessagePage>
+            <Page id="treeTablePage" showNavButton="true" navButtonPress="fnTreeTablePageNavPress">
+                <subHeader>
+                    <Bar>
+                        <contentMiddle>
+                            <Title text="{path: 'userModel>/selectedUserRole/usrole', formatter: '.fnUsRoleTitle'}"/>
+                        </contentMiddle>
+                    </Bar>
+                </subHeader>
+                <content>
+                    <IconTabBar>
+                        <items>
+                            <IconTabFilter key="aon" text="Authority Of Negotiation">
+                                <Panel>
+                                    <l:Splitter>
+                                        <Page id="treePage" showHeader="false">
+                                            <layoutData>
+                                                <l:SplitterLayoutData size="30%"/>
+                                            </layoutData>
+                                            <subHeader>
+                                                <Toolbar>
+                                                    <SearchField/>
+                                                </Toolbar>
+                                            </subHeader>
+                                            <content>
+                                                <Tree>
+
+                                                </Tree>
+                                            </content>
+                                        </Page>
+                                        <ScrollContainer vertical="true" focusable="true">
+                                            <Table id="tblUsers">
+                                                <layoutData>
+                                                    <l:SplitterLayoutData size="auto"/>
+                                                </layoutData>
+                                            </Table>
+                                        </ScrollContainer>
+                                    </l:Splitter>
+                                </Panel>
+                            </IconTabFilter>
+                            <IconTabFilter key="rov" text="Authority Of Negotiation">
+
+                            </IconTabFilter>
+                        </items>
+                    </IconTabBar>
+                </content>
+                <footer>
+                    <Toolbar>
+                        <ToolbarSpacer/>
+                        <Button text="Edit" icon="sap-icon://edit" press="fnReadUserRole"/>
+                        <ToolbarSpacer/>
+                    </Toolbar>
+                </footer>
+            </Page>
+        </detailPages>
+    </SplitApp>
+</core:View>

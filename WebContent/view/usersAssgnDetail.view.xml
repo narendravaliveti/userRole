@@ -1,0 +1,155 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout"
+           xmlns:f="sap.ui.layout.form"
+           controllerName="usrole.controller.usersAssgnDetail">
+    <Page showHeader="false">
+        <Page title="Display User" showNavButton="true">
+            <Panel expandable="true" expanded="true">
+                <headerToolbar>
+                    <Toolbar>
+                        <Title text="{parts:['userModel>/userDocData/usrole/usrole','userModel>/userDocData/usrole/descr'],formatter:'.fnHdrTitle'}"/>
+                        <ToolbarSpacer/>
+                        <Button text="Assigned Roles" tooltip="Assigned Roles" icon="sap-icon://role"/>
+                    </Toolbar>
+                </headerToolbar>
+                <content>
+                    <f:Form editable="true">
+                        <f:layout>
+                            <f:ResponsiveGridLayout
+                                    labelSpanL="4"
+                                    labelSpanM="4"
+                                    labelSpanS="12"
+                                    emptySpanL="0"
+                                    emptySpanM="0"
+                                    emptySpanS="0"
+                                    columnsL="2"
+                                    columnsM="2"
+                                    breakpointL="1024"
+                                    breakpointM="600"/>
+                        </f:layout>
+                        <f:formContainers>
+                            <f:FormContainer>
+                                <f:formElements>
+                                    <f:FormElement label="User Name">
+                                        <f:fields>
+                                            <Input type="Text" showValueHelp="true" value="{userModel>/selectedUser/userName}"
+                                                    maxLength="12" enabled="false"/>
+                                            <Text text="{userModel>/selectedUser/userFName}"/>
+                                        </f:fields>
+                                    </f:FormElement>
+                                    <f:FormElement label="Assistant User">
+                                        <f:fields>
+                                            <Input type="Text" showValueHelp="true" value="{userModel>/selectedUser/asstName}"
+                                                   maxLength="12" enabled="true"/>
+                                            <Text text="{userModel>/selectedUser/asstFName}"/>
+                                        </f:fields>
+                                    </f:FormElement>
+                                    <f:FormElement label="Assistant Role">
+                                        <f:fields>
+                                            <Input type="Text" showValueHelp="true" value="{userModel>/selectedUser/asstRole}"
+                                                   maxLength="10" enabled="false"/>
+                                        </f:fields>
+                                    </f:FormElement>
+                                </f:formElements>
+                                <f:layoutData>
+                                    <f:GridContainerData halfGrid="true"/>
+                                </f:layoutData>
+                            </f:FormContainer>
+                            <f:FormContainer>
+                                <f:formElements>
+                                    <f:FormElement label="">
+                                        <f:fields>
+                                        </f:fields>
+                                    </f:FormElement>
+                                    <f:FormElement label="Valid From">
+                                        <f:fields>
+                                            <DatePicker value="{userModel>/selectedUser/validFrom}" enabled="true"/>
+                                        </f:fields>
+                                    </f:FormElement>
+                                    <f:FormElement label="Valid To">
+                                        <f:fields>
+                                            <DatePicker value="{userModel>/selectedUser/validTo}" enabled="false"/>
+                                        </f:fields>
+                                    </f:FormElement>
+                                </f:formElements>
+                                <f:layoutData>
+                                    <f:GridContainerData halfGrid="true"/>
+                                </f:layoutData>
+                            </f:FormContainer>
+                        </f:formContainers>
+                    </f:Form>
+                </content>
+            </Panel>
+            <IconTabBar expandable="false" expanded="true">
+                <items>
+                    <IconTabFilter text="Permissions" tooltip="Permissions">
+                        <Table id="permissionsTable" noDataText="No Permissions Exists" mode="MultiSelect">
+                            <headerToolbar>
+                                <Toolbar>
+                                    <ToolbarSpacer/>
+                                    <SearchField width="20%"/>
+                                    <Button icon="sap-icon://detail-view" text="Replace" tooltip="Replace"/>
+                                    <Button icon="sap-icon://add" text="Add" tooltip="Add" press="fnPermissionToolbarActions('add')"/>
+                                    <Button icon="sap-icon://edit" text="Edit" tooltip="Edit" press="fnPermissionToolbarActions('edit')"/>
+                                    <Button icon="sap-icon://less" text="Delete" tooltip="Delete"/>
+                                </Toolbar>
+                            </headerToolbar>
+                            <columns>
+                                <Column hAlign="Center">
+                                    <header>
+                                        <Title text="Authority of negotiation"/>
+                                    </header>
+                                </Column>
+                                <Column hAlign="Center">
+                                    <header>
+                                        <Title text="Range of validity"/>
+                                    </header>
+                                </Column>
+                                <Column hAlign="Center">
+                                    <header>
+                                        <Title text="Valid from"/>
+                                    </header>
+                                </Column>
+                                <Column hAlign="Center">
+                                    <header>
+                                        <Title text="Valid to"/>
+                                    </header>
+                                </Column>
+                            </columns>
+                        </Table>
+                    </IconTabFilter>
+                    <IconTabFilter text="Assignments" tooltip="Assignments">
+                        <Table id="assignmentsTable" noDataText="No Assignments Exists" mode="MultiSelect">
+                            <headerToolbar>
+                                <Toolbar>
+                                    <ToolbarSpacer/>
+                                    <SearchField width="20%"/>
+                                    <Button icon="sap-icon://detail-view" text="Replace" tooltip="Replace"/>
+                                    <Button icon="sap-icon://add" text="Add" tooltip="Add" press="fnAssignmentToolbarActions('add')"/>
+                                    <Button icon="sap-icon://edit" text="Edit" tooltip="Edit" press="fnAssignmentToolbarActions('edit')"/>
+                                    <Button icon="sap-icon://less" text="Delete" tooltip="Delete"/>
+                                </Toolbar>
+                            </headerToolbar>
+                            <columns>
+                                <Column hAlign="Center">
+                                    <header>
+                                        <Title text="User Role"/>
+                                    </header>
+                                </Column>
+                                <Column hAlign="Center">
+                                    <header>
+                                        <Title text="User Name"/>
+                                    </header>
+                                </Column>
+                            </columns>
+                        </Table>
+                    </IconTabFilter>
+                </items>
+                <content>
+                    <Table id="permNAssgnTable">
+
+                    </Table>
+                </content>
+            </IconTabBar>
+        </Page>
+    </Page>
+</core:View>

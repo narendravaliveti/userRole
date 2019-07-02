@@ -1,0 +1,52 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+           controllerName="usrole.controller.userRoleDetail">
+    <Page showHeader="false">
+        <Page title="Display User" showNavButton="true">
+            <Panel id="headerPanel" expandable="true" expanded="true" expand="fnHdrPnlExpand" class="zero-padding">
+                <headerToolbar>
+                    <Toolbar>
+                        <Title id="headerPanelTitle" text="User Role Info"/>
+                        <Title id="headerPanelTitle1" text=""/>
+                    </Toolbar>
+                </headerToolbar>
+                <content>
+                    <ObjectHeader title="{userModel>/userDocData/usrole/usrole}"
+                                  number="{userModel>/userDocData/usrole/descr}">
+                        <attributes>
+                            <ObjectAttribute title="Created By" text="{userModel>/userDocData/usrole/ernam}"
+                                             visible="{= ${userModel>/userDocData/usrole/ernam} === '' ? false : true }"/>
+                            <ObjectAttribute title="Created On" text="{userModel>/userDocData/usrole/erdat}"
+                                             visible="{= ${userModel>/userDocData/usrole/erdat} === '' ? false : true }"/>
+                        </attributes>
+                        <statuses>
+                            <ObjectStatus title="Changed By" text="{userModel>/userDocData/usrole/aenam}"
+                                          visible="{= ${userModel>/userDocData/usrole/aenam} === '' ? false : true }"/>
+                            <ObjectStatus title="Changed On" text="{userModel>/userDocData/usrole/aedat}"
+                                          visible="{= ${userModel>/userDocData/usrole/aedat} === '' ? false : true }"/>
+                        </statuses>
+                    </ObjectHeader>
+                </content>
+            </Panel>
+            <Table id="userTable" mode="MultiSelect"
+                   columns="{path:'userModel>/userTableCols', factory: '.fnCreateUserTableCols'}"
+                   items="{path:'userModel>/userDocData/user', factory: '.fnCreateUserTableItems'}">
+                <headerToolbar>
+                    <Toolbar>
+                        <Title text="Users"/>
+                        <ToolbarSpacer/>
+                        <Button icon="sap-icon://add" text="Add" press=".fnPerformUserToolbarActions('add')"/>
+                        <Button icon="sap-icon://edit" text="Edit" press=".fnPerformUserToolbarActions('edit')"/>
+                        <Button icon="sap-icon://delete" text="Delete"/>
+                    </Toolbar>
+                </headerToolbar>
+            </Table>
+            <footer>
+                <Bar>
+                    <contentRight>
+                        <Button icon="sap-icon://save" text="Save"/>
+                    </contentRight>
+                </Bar>
+            </footer>
+        </Page>
+    </Page>
+</core:View>

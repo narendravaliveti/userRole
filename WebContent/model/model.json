@@ -1,0 +1,100 @@
+{
+  "userRoleList": [
+    {
+      "usrole": "APPROVE",
+      "count": "12",
+      "descr": "Sales Approval",
+      "erdat": "Jun 22, 2020"
+    },
+    {
+      "usrole": "BUYER",
+      "count": "6",
+      "descr": "Products Buyer",
+      "erdat": "Aug 13, 2020"
+    },
+    {
+      "usrole": "REVIEW",
+      "count": "9",
+      "descr": "Reviewer",
+      "erdat": "Apr 11, 2022"
+    },
+    {
+      "usrole": "DUMMY",
+      "count": "2",
+      "descr": "Dummy UserRole",
+      "erdat": "Jul 22, 2021"
+    },
+    {
+      "usrole": "TEST",
+      "count": "5",
+      "descr": "Testing",
+      "erdat": "Feb 22, 2020"
+    }
+  ],
+  "selectedUserRole": {},
+  "userDocData": {
+    "usrole": {
+      "usrole": "APPROVE",
+      "ernam": "KANCHUS",
+      "erdat": "20/06/2014",
+      "erzet": "",
+      "aenam": "AMBHU",
+      "aedat": "12/03/2016",
+      "aezet": "",
+      "descr": "Sales Approval"
+    },
+    "user": [
+      {
+        "userName": "KANCHUS",
+        "userFName": "Prasad",
+        "asstName": "AMBHU",
+        "asstFName": "RajKumar",
+        "asstRole": "",
+        "validFrom": "20/06/2014",
+        "validTo": "02/06/2024"
+      },
+      {
+        "userName": "CHUNDURU",
+        "userFName": "Phani",
+        "asstName": "AMBHU",
+        "asstFName": "RajKumar",
+        "asstRole": "Review",
+        "validFrom": "20/06/2014",
+        "validTo": "02/06/2024"
+      },
+      {
+        "userName": "TANGUTURI",
+        "userFName": "Bhargava",
+        "asstName": "PIPPALLA",
+        "asstFName": "Pippalla",
+        "asstRole": "TEST",
+        "validFrom": "20/06/2014",
+        "validTo": "02/06/2024"
+      }
+    ]
+  },
+  "selectedUser": {},
+  "userTableCols": [
+    {
+      "label": "User Name"
+    },
+    {
+      "label": "Full Name"
+    },
+    {
+      "label": "Assistant"
+    },
+    {
+      "label": "Full Name"
+    },
+    {
+      "label": "Assistant Role"
+    },
+    {
+      "label": "Valid from"
+    },
+    {
+      "label": "Valid to"
+    }
+  ]
+}

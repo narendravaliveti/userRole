@@ -1,0 +1,65 @@
+{
+  "sap.app": {
+    "id": "usrole",
+    "type": "application",
+    "i18n": "i18n/i18n.properties"
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "rootView": {
+      "viewName": "usrole.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "app"
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "viewPath": "usrole.view",
+        "controlId": "app",
+        "controlAggregation": "pages",
+        "async": true
+      },
+      "routes": {
+        "userRoleStart": {
+          "pattern": "",
+          "target": "userRoleStart"
+        },
+        "userRoleDetail": {
+          "pattern": "userRoleDetail/{usrole}",
+          "target": "userRoleDetail"
+        },
+        "usersAssgnDetail": {
+          "pattern": "assignmentView",
+          "target": "usersAssgnDetail"
+        }
+      },
+      "targets": {
+        "userRoleStart": {
+          "viewName": "userRoleStart"
+        },
+        "userRoleDetail": {
+          "viewName": "userRoleDetail"
+        },
+        "usersAssgnDetail": {
+          "viewName": "usersAssgnDetail"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    }
+  }
+}

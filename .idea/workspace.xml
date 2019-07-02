@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2466ab8-2454-4d3e-bebd-8ac05153dcce" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/view/usersAssgnDetail.view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2159">
+              <caret line="127" column="133" selection-start-line="127" selection-start-column="133" selection-end-line="127" selection-end-column="133" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/controller/usersAssgnDetail.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="152" column="57" selection-start-line="152" selection-start-column="57" selection-end-line="152" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/controller/userRoleDetail.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1887">
+              <caret line="164" column="36" selection-start-line="164" selection-start-column="36" selection-end-line="164" selection-end-column="45" />
+              <folding>
+                <element signature="e#84#586#0" />
+                <element signature="e#631#839#0" />
+                <element signature="e#885#1809#0" />
+                <element signature="e#1837#2213#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user</find>
+      <find>var</find>
+      <find>hdrPnlTitle</find>
+      <find>userTableClear</find>
+      <find>usrRecordModel</find>
+      <find>sUser</find>
+      <find>aSelectedContexts</find>
+      <find>icon</find>
+      <find>getselected</find>
+      <find>fnUserTableClear</find>
+      <find>orecord</find>
+      <find>fnCreateAddUserDialog</find>
+      <find>tode</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebContent/view/App.view.xml" />
+        <option value="$PROJECT_DIR$/WebContent/controller/App.controller.js" />
+        <option value="$PROJECT_DIR$/WebContent/Component.js" />
+        <option value="$PROJECT_DIR$/WebContent/view/userRoleStart.view.xml" />
+        <option value="$PROJECT_DIR$/WebContent/controller/userRoleStart.controller.js" />
+        <option value="$PROJECT_DIR$/WebContent/css/style.css" />
+        <option value="$PROJECT_DIR$/WebContent/index.html" />
+        <option value="$PROJECT_DIR$/WebContent/view/userRoleDetail.view.xml" />
+        <option value="$PROJECT_DIR$/WebContent/manifest.json" />
+        <option value="$PROJECT_DIR$/WebContent/model/model.json" />
+        <option value="$PROJECT_DIR$/WebContent/controller/userRoleDetail.controller.js" />
+        <option value="$PROJECT_DIR$/WebContent/view/usersAssgnDetail.view.xml" />
+        <option value="$PROJECT_DIR$/WebContent/controller/usersAssgnDetail.controller.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="773" />
+    <option name="width" value="832" />
+    <option name="height" value="907" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deliveryProject" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Narendra Valiveti\Desktop\UI Workspace\userRole\WebContent\view" />
+      <recent name="C:\Users\Narendra Valiveti\Desktop\UI Workspace\userRole\WebContent\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2466ab8-2454-4d3e-bebd-8ac05153dcce" name="Default Changelist" comment="" />
+      <created>1560920586226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560920586226</updated>
+      <workItem from="1560920587553" duration="24013000" />
+      <workItem from="1561007927894" duration="20683000" />
+      <workItem from="1561093152417" duration="13286000" />
+      <workItem from="1561358248686" duration="1181000" />
+      <workItem from="1561437821257" duration="1255000" />
+      <workItem from="1561626096522" duration="9984000" />
+      <workItem from="1561786171278" duration="608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="71010000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="773" y="0" width="832" height="907" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31989923" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32756326" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebContent/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/Component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/controller/App.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="true" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/model/model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/view/userRoleDetail.view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/view/App.view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/view/userRoleStart.view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/controller/userRoleStart.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="30" column="71" lean-forward="true" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/view/usersAssgnDetail.view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="127" column="133" selection-start-line="127" selection-start-column="133" selection-end-line="127" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/controller/userRoleDetail.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="164" column="36" selection-start-line="164" selection-start-column="36" selection-end-line="164" selection-end-column="45" />
+          <folding>
+            <element signature="e#84#586#0" />
+            <element signature="e#631#839#0" />
+            <element signature="e#885#1809#0" />
+            <element signature="e#1837#2213#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/controller/usersAssgnDetail.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="152" column="57" selection-start-line="152" selection-start-column="57" selection-end-line="152" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
